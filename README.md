@@ -3,7 +3,7 @@
 A [Daring Way](https://www/daringway.com/) opinionated approach on adding DNS entries for fastmail.
 
     Contestant: I'll take AWS for $200 Alex.
-    Alex: How do you easily create Route 52 entries for [fastmail email service](https://www.fastmail.com/)?
+    Alex: How do you easily create Route 53 entries for [fastmail email service](https://www.fastmail.com/)?
     Contestant: What is the Daring Way AWS Route53 Fastmail Module
 
 
