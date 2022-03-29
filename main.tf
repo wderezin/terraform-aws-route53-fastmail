@@ -57,7 +57,7 @@ resource aws_route53_record domainkey {
   ttl     = local.ttl
 
   records = [
-    "fm${count.index}.${data.aws_route53_zone.zone.name}fmhosted.com."
+    "fm${count.index}.${data.aws_route53_zone.zone.name}.fmhosted.com."
   ]
 }
 
