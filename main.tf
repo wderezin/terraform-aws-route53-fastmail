@@ -50,7 +50,7 @@ resource aws_route53_record txt {
 }
 
 resource aws_route53_record domainkey {
-  count   = 3
+  count   = 4
   zone_id = data.aws_route53_zone.zone.zone_id
   name    = "fm${count.index}._domainkey.${data.aws_route53_zone.zone.name}"
   type    = "CNAME"
